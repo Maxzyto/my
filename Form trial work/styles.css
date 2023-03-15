@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: hsl(0, 100%, 74%) url('./bg-intro-desktop.png'); 
+    
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    width: 85%;
+    height: 75vh;
+    align-content: center;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem;
+    align-items: center;
+
+}
+
+.infor{
+    height: 100%;
+    width: 50%;
+}
+
+.form{
+    background-color: white;
+    height: fit-content;
+    width: 30vw; 
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 12px rgb(0, 0, 0, 0.15);
+    padding: 2rem;
+
+}
+
+.form button {
+    color: white;
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    cursor: grab;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: hsl(154, 59%, 51%);
+    margin-top: 1rem;
+    width: 45rem;
+    
+}
+
+
+.right{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.right h3{
+    background-color:hsl(248, 32%, 49%) ;
+    width: 45rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 12px rgb(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 0.5rem;
+    color: white;
+
+}
+
+.control{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 2rem;
+    
+}
+
+.control input{
+    padding: 1.5rem;
+    border-radius: 5px;
+    border: 2px solid #804674;
+    outline: none;
+}
+
+label{
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.agree p {
+    text-align: center;
+    margin-top: 1rem;
+}
